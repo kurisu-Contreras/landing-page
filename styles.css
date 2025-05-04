@@ -83,37 +83,46 @@ input{
   border-radius: 15px;
 }
 .randomInformation{
-  background-color: red;
   display: flex;
   flex-direction: column;
   align-items: center;
- 
+  padding-bottom: 100px ;
 }
-.containerCard{
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-  background-color: green;
+h2{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
 }
+
 .card{
-  background-color: yellow;
-  border:5px solid black;
+  border:5px solid #5a39fa;
   height: 150px;
   width: 150px;
   border-radius: 15px;
 }
 
-.containerText{
+.containerHuge{
   display: flex;
-  background-color: yellow;
+  gap: 40px;
+  flex-wrap: wrap;
   justify-content: center;
-  width: 790px;
-  
+  margin-top: 20px;
+
 }
+
+.containerBig{
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 160px;
+  align-items: center;
+}
+
 .some{
   display: flex;
-  flex-wrap: wrap;
   text-align: center;
-  font-size: 18px;
-  margin-right: 40px;
+  font-size: 17px;
+  margin-top: 5px;
+  color: #666a7a;
+  font-weight: 500;
 }
