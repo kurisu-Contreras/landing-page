@@ -1,0 +1,119 @@
+body{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  font-family: Roboto,'Times New Roman', Times, serif;
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+  
+}
+
+.header{
+    background-color: #25293b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 16px;
+}
+
+ul{
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 17px;
+  }
+a{
+  font-size: 18px;
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+h1{
+  font-size: 48px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+.heroText{
+  margin-top: 5px;
+  margin-right: 50px;
+}
+.mainContent{
+  background-color: #25293b;
+  color: #f9faf8;
+  display: flex;
+  
+  padding: 100px 200px;
+
+}
+.leftside{
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+input{
+  color: #f9faf8;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #70747c;
+}
+
+.button1{
+  background-color: #5a39fa;
+  font-size: 20px;
+  padding: 10px 30px;
+  color: #f9faf8;
+  font-weight: 900 ;
+  border: none;
+  border-radius: 15px;
+}
+.randomInformation{
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.containerCard{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  background-color: green;
+}
+.card{
+  background-color: yellow;
+  border:5px solid black;
+  height: 150px;
+  width: 150px;
+  border-radius: 15px;
+}
+
+.containerText{
+  display: flex;
+  background-color: yellow;
+  justify-content: center;
+  width: 790px;
+  
+}
+.some{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 18px;
+  margin-right: 40px;
+}
