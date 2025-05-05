@@ -153,3 +153,44 @@ h2{
   font-size: 23px;
   font-style: normal;
 }
+
+.callToAction{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  flex: 1;
+}
+
+.containerTextAction{
+  background-color: #603cfc;
+  display: flex;
+  align-items: center;
+  padding: 60px 120px;
+  gap: 200px;
+  border-radius: 10px;
+}
+h3{
+  font-size: 26px;
+  margin: 0px;
+}
+#callText{
+  margin: 0px;
+  color: #e5e7eb;
+}
+.containerText{
+  color: white;
+}
+.button2{
+  background-color:#603cfc;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: 3px solid white;
+  border-radius: 8px;
+  width: 160px;
+  height: 50px;
+}
+.footer{
+  background-color: #25293b;
+}
