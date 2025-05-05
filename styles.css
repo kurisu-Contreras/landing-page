@@ -126,3 +126,30 @@ h2{
   color: #666a7a;
   font-weight: 500;
 }
+
+.quote{
+  display: flex;
+  background-color: #e5e7eb;
+  /* top | right | bottom | left */
+  padding: 130px 0px 90px 0px;
+  justify-content: center;
+}
+
+.containerQuote{
+  width: 800px;
+  font-size: 36px ;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+}
+.blockquote{
+  padding: 0px;
+  margin: 0px;
+}
+.cite,cite{
+  text-align: right;
+  color:#1F2937;
+  font-weight: 700;
+  font-size: 23px;
+  font-style: normal;
+}
