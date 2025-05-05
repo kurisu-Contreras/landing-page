@@ -193,4 +193,7 @@ h3{
 }
 .footer{
   background-color: #25293b;
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
 }
